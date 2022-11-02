@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  padding: 15px;
+  font-weight: bold;
+}
+.conterna {
+  font: sans-serif;
+  line-height: 1.4;
+
+  width: 600px;
+  padding: 0;
+  margin: 50px auto;
+
+  position: relative;
+}
+.product {
+  border: 5px solid;
+}
+
+.product::before {
+  display: block;
+  content: 'SALE';
+  background-color: red;
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: xx-small;
+  letter-spacing: 3px;
+  color: white;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+}
+.productDetails {
+  font-size: small;
+  font-weight: bold;
+}
+header {
+  background-color: #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price {
+  font-weight: bold;
+  /* float: left; */
+  display: inline;
+}
+
+.freeShipping {
+  color: #7e7a7a;
+  font-size: small;
+  text-transform: uppercase;
+  float: right;
+  display: inline;
+}
+.Ready {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.moreInfo {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.moreInfo:link,
+.moreInfo:visited {
+  color: black;
+}
+.moreInfo:hover,
+.moreInfo:active {
+  text-decoration: none;
+}
+
+.PRODUCT {
+  margin-top: 15px;
+}
+li {
+  margin-left: 20px;
+  list-style: inside;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #110f0f;
+}
+
+.c1 {
+  background-color: aqua;
+}
+
+.c2 {
+  background-color: rgb(199, 45, 109);
+}
+
+button {
+  background-color: #110f0f;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: rgb(15, 15, 15);
+}
+
+.img {
+  /* background-color: green; */
+  float: left;
+}
+
+.priceColor {
+  /* background-color: yellow; 
+  float: left;
+  width: 180px;
+  height: 180px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 25px;*/
+}
+
+.pd {
+  /* background-color: red;
+  height: 180px;
+  width: 180px;
+  padding-top: 25px;
+  float: right; */
+}
+
+.flexCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.priceColor {
+  /* background-color: yellow; */
+  margin-left: 30px;
+}
+
+.pd {
+  /* background-color: red; */
+}
